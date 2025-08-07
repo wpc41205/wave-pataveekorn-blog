@@ -1,5 +1,8 @@
 import './index.css'; 
-import { NavBar, HeroSection } from './landingPage';
+import { NavBar } from './components/Nav';
+import { HeroSection } from './components/HeroSection';
+import { ArticleSection } from './components/ArticleSection';
+import { Footer } from './components/Footer';
 
 // NavBar Component
 function App() {
@@ -7,6 +10,8 @@ function App() {
     <div className="min-h-screen bg-[#F9F8F6]">
       <NavBar />
       <HeroSection />
+      <ArticleSection />
+      <Footer />
     </div>
   )
 }
