@@ -18,7 +18,7 @@ export function HeroSection() {
           </div>
           <img
             src={MyImage}
-            alt="Person with hands up"
+            alt="Developer image"
             className="h-[529px] w-[386px] object-cover rounded-lg shadow-lg mx-4 mb-8 lg:mb-0"
           />
           <div className="lg:w-1/3 lg:pl-8">
