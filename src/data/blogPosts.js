@@ -1,8 +1,14 @@
+import atomicImage from '../assets/atomic.png';
+import richdadImage from '../assets/richdad.png';
+import leadereatImage from '../assets/leadereat.png';
+import deepworkImage from '../assets/deepwork.png';
+import isekaiImage from '../assets/isekai.png';
+import theleanstartupImage from '../assets/theleanstartup.png';
+
 export const blogPosts = [
   {
     id: 1,
-    image:
-      "https://digital.library.tu.ac.th/tu_dc/digital/file_upload/biblio/cover/178780.jpg",
+    image: atomicImage,
     category: "Self-improvement",
     title: "Atomic Habits: Small Changes, Remarkable Results",
     description:
@@ -15,8 +21,7 @@ export const blogPosts = [
   },
   {
     id: 2,
-    image:
-      "https://growthsummary.com/wp-content/uploads/2024/06/107.png",
+    image: richdadImage,
     category: "Business & Finance",
     title: "Rich Dad Poor Dad: Lessons on Wealth and Mindset",
     description:
@@ -25,12 +30,11 @@ export const blogPosts = [
     date: "07 August 2025",
     likes: 278,
     content:
-      "## 1. Two Fathers, Two Mindsets\n\nRobert Kiyosaki shares contrasting lessons from his 'rich dad' and 'poor dad'.\n\n## 2. The Importance of Financial Education\n\nWhy schools don’t teach it and how to learn it yourself.\n\n## 3. Assets vs. Liabilities\n\nThe core concept that separates the wealthy from the struggling.\n\n## 4. Entrepreneurship and Investment\n\nBuilding income streams beyond a paycheck.\n\n## 5. Taking Control of Your Future\n\nDeveloping the mindset and skills to achieve financial independence."
+      "## 1. Two Fathers, Two Mindsets\n\nRobert Kiyosaki shares contrasting lessons from his 'rich dad' and 'poor dad'.\n\n## 2. The Importance of Financial Education\n\nWhy schools don't teach it and how to learn it yourself.\n\n## 3. Assets vs. Liabilities\n\nThe core concept that separates the wealthy from the struggling.\n\n## 4. Entrepreneurship and Investment\n\nBuilding income streams beyond a paycheck.\n\n## 5. Taking Control of Your Future\n\nDeveloping the mindset and skills to achieve financial independence."
   },
   {
     id: 3,
-    image:
-      "https://online.anyflip.com/bvuvy/fwmz/files/large/7c68645d71b803bf0ba2f22519f73e08.jpg?1678977824",
+    image: leadereatImage,
     category: "Leadership",
     title: "Leaders Eat Last: Creating Teams That Thrive",
     description:
@@ -43,8 +47,7 @@ export const blogPosts = [
   },
   {
     id: 4,
-    image:
-      "https://image.makewebcdn.com/makeweb/m_1920x0/Z9S9L5BrM/DefaultData/Deep_Work_final_20_9_22_02.jpg",
+    image: deepworkImage,
     category: "Productivity",
     title: "Deep Work: Rules for Focused Success",
     description:
@@ -57,8 +60,7 @@ export const blogPosts = [
   },
   {
     id: 5,
-    image:
-      "https://imgv2-2-f.scribdassets.com/img/document/563609118/original/c153429fdc/1?v=1",
+    image: isekaiImage,
     category: "Self-improvement",
     title: "Ikigai: The Japanese Secret to a Long and Happy Life",
     description:
@@ -67,12 +69,11 @@ export const blogPosts = [
     date: "07 August 2025",
     likes: 310,
     content:
-      "## 1. Defining Ikigai\n\nFinding the intersection between what you love, what you’re good at, what the world needs, and what you can be paid for.\n\n## 2. The Okinawan Lifestyle\n\nLessons from one of the world’s longest-living communities.\n\n## 3. Flow and Purpose\n\nHow to enter flow states and connect them to your life's mission.\n\n## 4. Healthy Habits\n\nDaily practices that support longevity and happiness.\n\n## 5. Bringing Ikigai to Life\n\nPractical steps to integrate Ikigai into your personal and professional world."
+      "## 1. Defining Ikigai\n\nFinding the intersection between what you love, what you're good at, what the world needs, and what you can be paid for.\n\n## 2. The Okinawan Lifestyle\n\nLessons from one of the world's longest-living communities.\n\n## 3. Flow and Purpose\n\nHow to enter flow states and connect them to your life's mission.\n\n## 4. Healthy Habits\n\nDaily practices that support longevity and happiness.\n\n## 5. Bringing Ikigai to Life\n\nPractical steps to integrate Ikigai into your personal and professional world."
   },
   {
     id: 6,
-    image:
-      "https://m.media-amazon.com/images/I/71sxTeZIi6L.jpg",
+    image: theleanstartupImage,
     category: "Business & Finance",
     title: "The Lean Startup: Building a Business for the Future",
     description:
